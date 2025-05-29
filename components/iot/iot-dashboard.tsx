@@ -278,7 +278,7 @@ export function IoTDashboard({ memberId, devices }: IoTDashboardProps) {
   })
   const [isRealtime, setIsRealtime] = useState(true)
 
-  // Asegurar que las actualizaciones en tiempo real estén habilitadas
+  // Asegurar que las actualizaciones en ti empo real estén habilitadas
   useEffect(() => {
     if (!isRealtime) {
       setIsRealtime(true)
